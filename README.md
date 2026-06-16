@@ -1,4 +1,4 @@
-# 02-Bookstore-Microservices
+# Bookstore-Microservices
 
 Steps:
 1. ensure docker is installed and gemini api key is present in the local env machine
