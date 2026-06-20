@@ -44,16 +44,6 @@ I built this to get hands-on with the full path from code to a running deploymen
 4. **Launch & Seed** — tears down any old containers, brings the stack up with `docker compose up -d`, and restores the MongoDB backup so the app has data to serve.
 5. **Cleanup** — clears the Jenkins workspace after every run, pass or fail.
 
-## Folder structure
-
-```
-backend/         Flask API, MongoDB connection, Gemini integration, Dockerfile
-frontend/        Flask app serving pages, proxies requests to backend, Dockerfile
-Jenkinsfile       Pipeline definition
-deploy_check.sh   Pre-flight environment validation script
-docker-compose.yml
-main.tf           Terraform config — provisions the Jenkins VM, firewall, and bootstrap script
-```
 
 ## Tech used
 
